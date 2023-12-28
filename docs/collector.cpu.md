@@ -16,12 +16,12 @@ None
 ## Metrics
 These metrics are available on all versions of Windows:
 
-Name | Description | Type | Labels
------|-------------|------|-------
-`windows_cpu_cstate_seconds_total` | Time spent in low-power idle states | counter | `core`, `state`
-`windows_cpu_time_total` | Time that processor spent in different modes (dpc, idle, interrupt, privileged, user) | counter | `core`, `mode`
-`windows_cpu_interrupts_total` | Total number of received and serviced hardware interrupts | counter | `core`
-`windows_cpu_dpcs_total` | Total number of received and serviced deferred procedure calls (DPCs) | counter | `core`
+Name | Description | 中文 | Type | Labels
+-----|-------------|------|-------|-------
+`windows_cpu_cstate_seconds_total` | Time spent in low-power idle states | 在低功耗空闲状态下花费的时间 | counter | `core`, `state`
+`windows_cpu_time_total` | Time that processor spent in different modes (dpc, idle, interrupt, privileged, user) |  | counter | `core`, `mode`
+`windows_cpu_interrupts_total` | Total number of received and serviced hardware interrupts |  | counter | `core`
+`windows_cpu_dpcs_total` | Total number of received and serviced deferred procedure calls (DPCs) |  | counter | `core`
 
 These metrics are only exposed on Windows Server 2008R2 and later:
 
